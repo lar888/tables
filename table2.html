@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Таблиця 2</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="table1.html">Таблиця 1</a></li>
+                <li><a href="table3.html">Таблиця 3</a></li>
+            </ul>
+        </nav>
+
+        <table class="tbl1 w90p">
+            <tr>
+                <td colspan="2" class="w40p">1-2</td>
+<!--                <td>2</td>-->
+                <td class="w60p">3</td>
+            </tr>
+            <tr>
+                <td class="w28p">4</td>
+                <td colspan="2" rowspan="2" class="w72p">
+                    5-6-8-9
+
+                    <table class="w80p">
+                        <tr>
+                            <td>1</td>
+                            <td rowspan="3">2-5-8</td>
+                            <td rowspan="2" class="h200">3-6</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">4-7</td>
+                            <!--                <td>5</td>-->
+                            <!--                <td>6</td>-->
+                        </tr>
+                        <tr>
+                            <!--                <td>7</td>-->
+                            <!--                <td>8</td>-->
+                            <td>9</td>
+                        </tr>
+                    </table>
+
+                </td>
+<!--                <td>6</td>-->
+            </tr>
+            <tr>
+                <td class="w28p">7</td>
+<!--                <td colspan="2">8-9</td>-->
+<!--                <td>9</td>-->
+            </tr>
+        </table>
+
+    </div>
+</body>
+</html>
