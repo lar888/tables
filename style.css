@@ -27,7 +27,7 @@ table {
     text-align: center;
     margin: 30px auto;
 }
-.tbl1 td {
+.tbl1 td, .tbl2 td {
     border: 1px solid #000;
     height: 50px;
     width: 33.33%;
@@ -41,19 +41,19 @@ table {
 .w75p {
     width: 75%;
 }
-.w72p {
+.tbl2 .w72p {
     width: 72%;
 }
-.w60p {
+.tbl2 .w60p {
     width: 60%;
 }
-.w40p {
+.tbl2 .w40p {
     width: 40%;
 }
-.w28p {
+.tbl2 .w28p {
     width: 28%;
 }
-.h200 {
+.tbl1 .h200, .tbl2 .h200{
     height: 200px;
 }
 
